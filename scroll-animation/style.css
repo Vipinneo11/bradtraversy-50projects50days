@@ -12,6 +12,7 @@ body {
   align-items: center;
   justify-content: center;
   margin: 0;
+  overflow-x: hidden;
 }
 
 h1 {
@@ -33,12 +34,12 @@ h1 {
   transition: transform 0.4s ease;
 }
 
-box:nth-of-type(even) {
+.box:nth-of-type(even) {
   transform: translateX(-400%);
 }
 
 .box.show {
-  transform: translateY(0);
+  transform: translateX(0);
 }
 
 .box h2 {
