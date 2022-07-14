@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
 
 * {
   box-sizing: border-box;
@@ -37,6 +37,10 @@ textarea {
   font-size: 16px;
 }
 
+textarea:focus {
+  outline: none;
+}
+
 .tag {
   background-color: #f0932b;
   color: #fff;
@@ -47,6 +51,6 @@ textarea {
   display: inline-block;
 }
 
-.tag.hightlight {
+.tag.highlight {
   background-color: #273c75;
 }
